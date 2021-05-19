@@ -1,2 +1,2 @@
-cffconvert==1.*
+cffconvert==git+git://github.com/citation-file-format/cff-converter-python@fix-encoding-bug#egg=cffconvert
 pytest
