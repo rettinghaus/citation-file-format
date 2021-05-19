@@ -11,7 +11,7 @@ def get_sibling_cff():
 @pytest.fixture(scope="module")
 def cffstr():
     fixture = get_sibling_cff()
-    with open(fixture, "r") as f:
+    with open(fixture, "r", encoding="utf8") as f:
         s = f.read()
     return s
 
