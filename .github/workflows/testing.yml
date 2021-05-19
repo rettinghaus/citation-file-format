@@ -30,7 +30,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip setuptools wheel
         python3 -m pip install -r test/requirements.txt
-        python3 -m pip install -e git://github.com/citation-file-format/cff-converter-python.git@9b5c167cfe6cfabd2632d1902f36800c309ad8ea#egg=cffconvert
+        python3 -m pip install -e git://github.com/citation-file-format/cff-converter-python.git@4fe02c2051b05246b635251656e6843a719bbdc5#egg=cffconvert
     - name: Run pytest
       run: |
         pytest --verbose -c test/pytest.ini
