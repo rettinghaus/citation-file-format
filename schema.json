@@ -996,7 +996,8 @@
                 "affiliation": {
                     "description": "The person's affilitation.",
                     "minLength": 1,
-                    "type": "string"
+                    "type": "array",
+                    "uniqueItems": true
                 },
                 "alias": {
                     "$ref": "#/definitions/alias",
