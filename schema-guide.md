@@ -1988,7 +1988,7 @@ Note that these keys may still not be optimal for, e.g., Icelandic names which d
 
 ### `definitions.person.affiliation`
 
-- **type**: [Nonempty `string`](#yaml-strings)
+- **type**: (Array of) [nonempty `string`](#yaml-strings)
 - **required**: `false`
 - **description**: The person's affiliation.
 - **usage**:<br><br>
